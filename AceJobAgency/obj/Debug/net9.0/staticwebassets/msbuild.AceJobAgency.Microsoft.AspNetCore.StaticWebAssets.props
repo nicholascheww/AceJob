@@ -1152,6 +1152,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\4f542093-75a7-4b2e-b416-e87f1313694e.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/4f542093-75a7-4b2e-b416-e87f1313694e.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1618tkzkxk</Fingerprint>
+      <Integrity>FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\4f542093-75a7-4b2e-b416-e87f1313694e.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1618tkzkxk</Fingerprint>
+      <Integrity>FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k6n3xbidhj</Fingerprint>
+      <Integrity>5DoFFivUjXyEb7Eq7fSENOUPlpEvgJf5W9s0zPQCbR8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx'))">
       <SourceType>Package</SourceType>
       <SourceId>AceJobAgency</SourceId>
@@ -1170,6 +1224,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8hjb14f7nj</Fingerprint>
+      <Integrity>XBgVlDic+vk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1618tkzkxk</Fingerprint>
+      <Integrity>FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx'))">
       <SourceType>Package</SourceType>
       <SourceId>AceJobAgency</SourceId>
@@ -1187,6 +1277,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/a1b27cd1-8f57-4477-8113-875372a42a4e.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2v9h9yikvj</Fingerprint>
+      <Integrity>0iLMru81e5aEdKFUfgqTiSMHgj/4Nv3FeFJTI58ZTek=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\bcf171dd-1996-4fb5-9f43-8e806453521b.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/bcf171dd-1996-4fb5-9f43-8e806453521b.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1618tkzkxk</Fingerprint>
+      <Integrity>FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\bcf171dd-1996-4fb5-9f43-8e806453521b.docx'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

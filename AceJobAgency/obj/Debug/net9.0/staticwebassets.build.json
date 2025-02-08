@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zBalixJGKcEHh4YNldFe6Ojgz5rxZfrtCoHoVUfRPOA=",
+  "Hash": "4a3ysAVXsSlNzie8seHmjg2jSHcc9SD5G7MmDhdOGTk=",
   "Source": "AceJobAgency",
   "BasePath": "_content/AceJobAgency",
   "Mode": "Default",
@@ -2726,6 +2726,69 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\4f542093-75a7-4b2e-b416-e87f1313694e.docx",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/4f542093-75a7-4b2e-b416-e87f1313694e#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1618tkzkxk",
+      "Integrity": "FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\4f542093-75a7-4b2e-b416-e87f1313694e.docx"
+    },
+    {
+      "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/51952ca5-108d-4bfa-a78f-8c3e1937e35f#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1618tkzkxk",
+      "Integrity": "FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx"
+    },
+    {
+      "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/6d5a19f3-66cc-4dd3-b584-a0f11b0185fa#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k6n3xbidhj",
+      "Integrity": "5DoFFivUjXyEb7Eq7fSENOUPlpEvgJf5W9s0zPQCbR8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx"
+    },
+    {
       "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx",
       "SourceId": "AceJobAgency",
       "SourceType": "Discovered",
@@ -2747,6 +2810,48 @@
       "OriginalItemSpec": "wwwroot\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx"
     },
     {
+      "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/96eb5f27-a6fd-48f3-9dd3-b305620bcc6b#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8hjb14f7nj",
+      "Integrity": "XBgVlDic+vk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1618tkzkxk",
+      "Integrity": "FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx"
+    },
+    {
       "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx",
       "SourceId": "AceJobAgency",
       "SourceType": "Discovered",
@@ -2766,6 +2871,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx"
+    },
+    {
+      "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/a1b27cd1-8f57-4477-8113-875372a42a4e#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2v9h9yikvj",
+      "Integrity": "0iLMru81e5aEdKFUfgqTiSMHgj/4Nv3FeFJTI58ZTek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/bcf171dd-1996-4fb5-9f43-8e806453521b#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1618tkzkxk",
+      "Integrity": "FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx"
     }
   ],
   "Endpoints": [
@@ -21924,6 +22071,252 @@
       ]
     },
     {
+      "Route": "resumes/4f542093-75a7-4b2e-b416-e87f1313694e.1618tkzkxk.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\4f542093-75a7-4b2e-b416-e87f1313694e.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1618tkzkxk"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/4f542093-75a7-4b2e-b416-e87f1313694e.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/4f542093-75a7-4b2e-b416-e87f1313694e.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\4f542093-75a7-4b2e-b416-e87f1313694e.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/51952ca5-108d-4bfa-a78f-8c3e1937e35f.1618tkzkxk.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1618tkzkxk"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5DoFFivUjXyEb7Eq7fSENOUPlpEvgJf5W9s0zPQCbR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:06:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5DoFFivUjXyEb7Eq7fSENOUPlpEvgJf5W9s0zPQCbR8="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.k6n3xbidhj.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5DoFFivUjXyEb7Eq7fSENOUPlpEvgJf5W9s0zPQCbR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:06:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k6n3xbidhj"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5DoFFivUjXyEb7Eq7fSENOUPlpEvgJf5W9s0zPQCbR8="
+        }
+      ]
+    },
+    {
       "Route": "resumes/8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.1618tkzkxk.docx",
       "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx",
       "Selectors": [],
@@ -22006,6 +22399,170 @@
       ]
     },
     {
+      "Route": "resumes/96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.8hjb14f7nj.pdf",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "269109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XBgVlDic+vk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 05:21:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8hjb14f7nj"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XBgVlDic+vk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "269109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XBgVlDic+vk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 05:21:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XBgVlDic+vk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.1618tkzkxk.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:11:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1618tkzkxk"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:11:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
       "Route": "resumes/9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.1618tkzkxk.docx",
       "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx",
       "Selectors": [],
@@ -22074,6 +22631,170 @@
         {
           "Name": "Last-Modified",
           "Value": "Sat, 08 Feb 2025 04:20:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/a1b27cd1-8f57-4477-8113-875372a42a4e.2v9h9yikvj.pdf",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0iLMru81e5aEdKFUfgqTiSMHgj/4Nv3FeFJTI58ZTek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2v9h9yikvj"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/a1b27cd1-8f57-4477-8113-875372a42a4e.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0iLMru81e5aEdKFUfgqTiSMHgj/4Nv3FeFJTI58ZTek="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/a1b27cd1-8f57-4477-8113-875372a42a4e.pdf",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0iLMru81e5aEdKFUfgqTiSMHgj/4Nv3FeFJTI58ZTek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0iLMru81e5aEdKFUfgqTiSMHgj/4Nv3FeFJTI58ZTek="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/bcf171dd-1996-4fb5-9f43-8e806453521b.1618tkzkxk.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1618tkzkxk"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/bcf171dd-1996-4fb5-9f43-8e806453521b.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/bcf171dd-1996-4fb5-9f43-8e806453521b.docx",
+      "AssetFile": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:09:04 GMT"
         },
         {
           "Name": "Cache-Control",

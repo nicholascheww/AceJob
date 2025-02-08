@@ -8,8 +8,11 @@ using System.IO;
 using System.Threading.Tasks;
 using System;
 using AceJobAgency.Model;
-using AceJobAgency.Model;
-using AceJobAgency.ViewModels;
+using System.Net.Http;
+using System.Text.Json;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using System.Collections.Generic;
 
 namespace AceJobAgency.Pages
 {
@@ -33,6 +36,15 @@ namespace AceJobAgency.Pages
         {
             if (ModelState.IsValid)
             {
+                // Retrieve reCAPTCHA token from the form
+                string recaptchaResponse = Request.Form["g-recaptcha-response"];
+
+                if (!await ValidateRecaptchaAsync(recaptchaResponse))
+                {
+                    ModelState.AddModelError(string.Empty, "reCAPTCHA verification failed. Please try again.");
+                    return Page();
+                }
+
                 if (!IsValidPassword(RModel.Password))
                 {
                     ModelState.AddModelError("Password", "Password must be at least 12 characters long, with a mix of uppercase, lowercase, numbers, and special characters.");
@@ -61,13 +73,12 @@ namespace AceJobAgency.Pages
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
 
-                // Optionally, you can sign in the user here if you have a custom authentication mechanism
-                // For now, redirect to the index page
                 return RedirectToPage("Index");
             }
 
             return Page();
         }
+
 
         private string EncryptNRIC(string nric)
         {
@@ -123,6 +134,28 @@ namespace AceJobAgency.Pages
             {
                 var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
                 return Convert.ToBase64String(hashedBytes);
+            }
+        }
+
+        private async Task<bool> ValidateRecaptchaAsync(string recaptchaResponse)
+        {
+            using (var client = new HttpClient())
+            {
+                var secretKey = "6Lcoq9AqAAAAADyI_lH2czSHZzXJt_-Qc3JeHzv_"; // Replace with your reCAPTCHA secret key
+                var response = await client.PostAsync(
+                    $"https://www.google.com/recaptcha/api/siteverify?secret={secretKey}&response={recaptchaResponse}",
+                    null
+                );
+
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var json = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonResponse);
+
+                if (json.TryGetValue("success", out var success) && success.ToString() == "True")
+                {
+                    return true;
+                }
+
+                return false;
             }
         }
     }

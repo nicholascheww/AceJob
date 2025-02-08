@@ -3,11 +3,14 @@
 @{
 }
 
+<head>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld8p9AqAAAAAMfSabmgfDNowBl6Rc-XL1TniU6s"></script>
+</head>
 <div class="container mt-5">
     <div class="row justify-content-center align-items-center">
         <div class="col-sm-12 col-md-12 col-lg-6">
             <h1 class="mb-3">Register</h1>
-            <form method="post" enctype="multipart/form-data">
+            <form method="post" enctype="multipart/form-data" id="registerForm">
                 <div asp-validation-summary="All" class="text-danger"></div>
 
                 <label asp-for="RModel.FirstName">First Name</label>
@@ -44,9 +47,25 @@
                 <label asp-for="RModel.WhoAmI">Who Am I</label>
                 <textarea asp-for="RModel.WhoAmI" class="form-control"></textarea>
 
-                <button type="submit" class="btn btn-primary mt-3">Register</button>
-            </form>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
 
+                <button type="submit" class="btn btn-primary mt-3" id="registerBtn">Register</button>
+            </form>
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById("registerForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent normal form submission
+
+        grecaptcha.ready(function () {
+            grecaptcha.execute("6Ld8p9AqAAAAAMfSabmgfDNowBl6Rc-XL1TniU6s", { action: "register" }).then(function (token) {
+                console.log("Generated reCAPTCHA token:", token); // Debugging
+                document.getElementById("g-recaptcha-response").value = token;
+                document.getElementById("registerForm").submit();
+            });
+        });
+    });
+</script>
+
