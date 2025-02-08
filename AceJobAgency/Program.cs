@@ -3,6 +3,7 @@ using AceJobAgency.Middleware;
 using AceJobAgency.Model;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using AceJobAgency.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +36,8 @@ builder.Services.AddAuthorization(options =>
         policy => policy.RequireClaim("Department", "HR"));
 });
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IAuditLogService, AuditLogService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

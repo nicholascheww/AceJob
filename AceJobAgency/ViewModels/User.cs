@@ -39,5 +39,8 @@ namespace AceJobAgency.ViewModels
         [Required]
         public string WhoAmI { get; set; }
         public string? SessionToken { get; set; }
+
+        public int FailedLoginAttempts { get; set; } = 0;
+        public DateTime? LockoutEnd { get; set; }
     }
 }

@@ -257,6 +257,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx",
+      "PackagePath": "staticwebassets\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AceJobAgency.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

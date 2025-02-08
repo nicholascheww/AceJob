@@ -220,3 +220,4 @@ C:\Users\mrmim\source\repos\AceJobAgency\AceJobAgency\obj\Debug\net9.0\refint\Ac
 C:\Users\mrmim\source\repos\AceJobAgency\AceJobAgency\obj\Debug\net9.0\AceJobAgency.pdb
 C:\Users\mrmim\source\repos\AceJobAgency\AceJobAgency\obj\Debug\net9.0\AceJobAgency.genruntimeconfig.cache
 C:\Users\mrmim\source\repos\AceJobAgency\AceJobAgency\obj\Debug\net9.0\ref\AceJobAgency.dll
+C:\Users\mrmim\source\repos\AceJobAgency\AceJobAgency\obj\Debug\net9.0\AceJobAgency.sourcelink.json

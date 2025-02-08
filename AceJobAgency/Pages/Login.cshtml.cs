@@ -11,17 +11,20 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc.Filters;
 using AceJobAgency.Model;
 using AceJobAgency.ViewModels;
+using AceJobAgency.Services;
 
 namespace AceJobAgency.Pages
 {
     public class LoginModel : PageModel
     {
         private readonly AuthDbContext _context;
+        private readonly IAuditLogService _auditLogService;
         public bool IsLoggedIn { get; set; }
 
-        public LoginModel(AuthDbContext context)
+        public LoginModel(AuthDbContext context, IAuditLogService auditLogService)
         {
             _context = context;
+            _auditLogService = auditLogService;
         }
 
         [BindProperty]
@@ -35,27 +38,49 @@ namespace AceJobAgency.Pages
             {
                 var user = _context.Users.FirstOrDefault(u => u.Email == LModel.Email);
 
+                // Check if the user exists and if the account is locked
+                if (user != null && user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTime.UtcNow)
+                {
+                    ModelState.AddModelError("", "Your account is locked. Please try again later.");
+                    return Page();
+                }
+
+                // Validate credentials
                 if (user == null || !VerifyPassword(LModel.Password, user.Password))
                 {
+                    // If user exists, increase failed login attempts
+                    if (user != null)
+                    {
+                        user.FailedLoginAttempts++;
+                        // Lock out the account after 3 failed attempts (e.g., lock for 15 minutes)
+                        if (user.FailedLoginAttempts >= 3)
+                        {
+                            user.LockoutEnd = DateTime.UtcNow.AddMinutes(15);
+                        }
+                        _context.Users.Update(user);
+                        await _context.SaveChangesAsync();
+                    }
                     ModelState.AddModelError("", "Username or Password incorrect");
                     return Page();
                 }
 
-                // Generate a new session token for this login instance
-                string sessionToken = Guid.NewGuid().ToString();
+                // Successful login: reset the counter
+                user.FailedLoginAttempts = 0;
+                user.LockoutEnd = null;
+                _context.Users.Update(user);
+                await _context.SaveChangesAsync();
 
-                // Store the session token in the UserSessions table
+                // Generate a session token and store session info as you did
+                string sessionToken = Guid.NewGuid().ToString();
                 var newSession = new UserSessions
                 {
                     UserEmail = user.Email,
                     SessionToken = sessionToken,
                     CreatedAt = DateTime.UtcNow
                 };
-
                 _context.UserSessions.Add(newSession);
                 await _context.SaveChangesAsync();
 
-                // Store session details in HttpContext
                 HttpContext.Session.Clear();
                 HttpContext.Session.SetString("UserEmail", LModel.Email);
                 HttpContext.Session.SetString("SessionToken", sessionToken);
@@ -73,13 +98,14 @@ namespace AceJobAgency.Pages
                 ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(identity);
                 await HttpContext.SignInAsync("MyCookieAuth", claimsPrincipal);
 
+                // Log successful login
+                await _auditLogService.LogAuditEventAsync(user.Email, "Successful Login");
+
+                // Redirect to the homepage after successful login
                 return RedirectToPage("/Index");
             }
-
             return Page();
         }
-
-
 
 
         private bool VerifyPassword(string enteredPassword, string storedHashedPassword)

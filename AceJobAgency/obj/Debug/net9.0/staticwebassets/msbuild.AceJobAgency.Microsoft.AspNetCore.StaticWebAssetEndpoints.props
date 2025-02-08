@@ -768,5 +768,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 03:59:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.1618tkzkxk.docx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1618tkzkxk"},{"Name":"integrity","Value":"sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="},{"Name":"label","Value":"_content/AceJobAgency/resumes/9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31915"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},{"Name":"ETag","Value":"\u0022FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 04:20:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"31915"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},{"Name":"ETag","Value":"\u0022FwuBwdcMw3W85Xe2yPgSGRICNKu3C5TyjrFixjygra0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 04:20:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
