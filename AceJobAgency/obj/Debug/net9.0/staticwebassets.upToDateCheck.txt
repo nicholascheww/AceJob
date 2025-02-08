@@ -123,4 +123,5 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\resumes\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx
 wwwroot\resumes\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx

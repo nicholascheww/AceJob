@@ -71,15 +71,17 @@ namespace AceJobAgency.Pages
 
         private string EncryptNRIC(string nric)
         {
-            byte[] key;
+            // Use a fixed key and IV so that decryption can use the same values.
+            byte[] key = Encoding.UTF8.GetBytes("0123456789abcdef0123456789abcdef"); // 32 bytes for AES-256
+            byte[] iv = new byte[16]; // 16 bytes IV (all zeros in this example; not secure for production)
+
             using (Aes aes = Aes.Create())
             {
                 aes.KeySize = 256;
-                aes.GenerateKey();
-                key = aes.Key;
-                aes.IV = new byte[16]; // Default IV (consider a secure IV)
+                aes.Key = key;
+                aes.IV = iv;
 
-                using (var encryptor = aes.CreateEncryptor(aes.Key, aes.IV))
+                using (ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV))
                 {
                     byte[] nricBytes = Encoding.UTF8.GetBytes(nric);
                     byte[] encryptedBytes = encryptor.TransformFinalBlock(nricBytes, 0, nricBytes.Length);
@@ -87,6 +89,7 @@ namespace AceJobAgency.Pages
                 }
             }
         }
+
 
         private async Task<string> SaveResumeAsync(IFormFile resumeFile)
         {

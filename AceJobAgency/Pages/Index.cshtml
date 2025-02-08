@@ -1,10 +1,45 @@
 ﻿@page
-@model IndexModel
+@model AceJobAgency.Pages.IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    @if (Model.CurrentUser != null)
+    {
+        <h1>Welcome, @Model.CurrentUser.FirstName @Model.CurrentUser.LastName!</h1>
+        <ul>
+            <li><strong>Gender:</strong> @Model.CurrentUser.Gender</li>
+            <li><strong>Email:</strong> @Model.CurrentUser.Email</li>
+            <li><strong>Date of Birth:</strong> @Model.CurrentUser.DateOfBirth.ToShortDateString()</li>
+            <li>
+                <strong>NRIC:</strong>
+                @if (!string.IsNullOrEmpty(Model.UnencryptedNRIC))
+                {
+                    @Model.UnencryptedNRIC
+                }
+                else
+                {
+                    <span>Error decrypting NRIC</span>
+                }
+            </li>
+            <li>
+                <strong>Resume:</strong>
+                @if (!string.IsNullOrEmpty(Model.CurrentUser.Resume))
+                {
+                    <!-- Assuming Resume stores a relative path to the file -->
+                    <a href="@Url.Content(Model.CurrentUser.Resume)" target="_blank">View Resume</a>
+                }
+                else
+                {
+                    <span>No resume uploaded</span>
+                }
+            </li>
+            <li><strong>About Me:</strong> @Model.CurrentUser.WhoAmI</li>
+        </ul>
+    }
+    else
+    {
+        <h1>User information is not available.</h1>
+    }
 </div>

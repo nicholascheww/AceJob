@@ -257,6 +257,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx",
+      "PackagePath": "staticwebassets\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx"
+    },
+    {
       "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx",
       "PackagePath": "staticwebassets\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx"
     },
