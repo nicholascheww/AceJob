@@ -141,7 +141,7 @@ namespace AceJobAgency.Pages
         {
             using (var client = new HttpClient())
             {
-                var secretKey = "6Lcoq9AqAAAAADyI_lH2czSHZzXJt_-Qc3JeHzv_"; // Replace with your reCAPTCHA secret key
+                var secretKey = "6Ld8p9AqAAAAAGZTkbPJqZn_BvpI6qgTQ5q9JPbg"; // Replace with your reCAPTCHA secret key
                 var response = await client.PostAsync(
                     $"https://www.google.com/recaptcha/api/siteverify?secret={secretKey}&response={recaptchaResponse}",
                     null

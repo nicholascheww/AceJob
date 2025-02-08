@@ -61,7 +61,7 @@
 
         grecaptcha.ready(function () {
             grecaptcha.execute("6Ld8p9AqAAAAAMfSabmgfDNowBl6Rc-XL1TniU6s", { action: "register" }).then(function (token) {
-                console.log("Generated reCAPTCHA token:", token); // Debugging
+                console.log("Generated reCAPTCHA Token:", token);
                 document.getElementById("g-recaptcha-response").value = token;
                 document.getElementById("registerForm").submit();
             });
