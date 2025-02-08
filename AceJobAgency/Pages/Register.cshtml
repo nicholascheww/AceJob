@@ -1,0 +1,52 @@
+﻿@page
+@model AceJobAgency.Pages.RegisterModel
+@{
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <h1 class="mb-3">Register</h1>
+            <form method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <label asp-for="RModel.FirstName">First Name</label>
+                <input type="text" asp-for="RModel.FirstName" class="form-control" required />
+
+                <label asp-for="RModel.LastName">Last Name</label>
+                <input type="text" asp-for="RModel.LastName" class="form-control" required />
+
+                <label asp-for="RModel.Gender">Gender</label>
+                <select asp-for="RModel.Gender" class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label asp-for="RModel.NRIC">NRIC</label>
+                <input type="text" asp-for="RModel.NRIC" class="form-control" required />
+
+                <label asp-for="RModel.Email">Email Address</label>
+                <input type="email" asp-for="RModel.Email" class="form-control" required />
+
+                <label asp-for="RModel.Password">Password</label>
+                <input type="password" asp-for="RModel.Password" class="form-control" required />
+
+                <label asp-for="RModel.ConfirmPassword">Confirm Password</label>
+                <input type="password" asp-for="RModel.ConfirmPassword" class="form-control" required />
+
+                <label asp-for="RModel.DateOfBirth">Date of Birth</label>
+                <input type="date" asp-for="RModel.DateOfBirth" class="form-control" required />
+
+                <label asp-for="RModel.Resume">Upload Resume</label>
+                <input type="file" asp-for="RModel.Resume" class="form-control" accept=".pdf,.docx" required />
+
+                <label asp-for="RModel.WhoAmI">Who Am I</label>
+                <textarea asp-for="RModel.WhoAmI" class="form-control"></textarea>
+
+                <button type="submit" class="btn btn-primary mt-3">Register</button>
+            </form>
+
+        </div>
+    </div>
+</div>
