@@ -9,10 +9,9 @@ using AceJobAgency.Model;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc.Filters;
-using AceJobAgency.Model;
-using AceJobAgency.ViewModels;
 using AceJobAgency.Services;
 using System.Text.Json;
+using System.Text.Encodings.Web;
 
 namespace AceJobAgency.Pages
 {
@@ -45,23 +44,21 @@ namespace AceJobAgency.Pages
                     return Page();
                 }
 
-                var user = _context.Users.FirstOrDefault(u => u.Email == LModel.Email);
+                // Input sanitation and validation
+                string sanitizedEmail = HtmlEncoder.Default.Encode(LModel.Email.Trim());
+                var user = _context.Users.FirstOrDefault(u => u.Email == sanitizedEmail);
 
-                // Check if the user exists and if the account is locked
                 if (user != null && user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTime.UtcNow)
                 {
                     ModelState.AddModelError("", "Your account is locked. Please try again later.");
                     return Page();
                 }
 
-                // Validate credentials
                 if (user == null || !VerifyPassword(LModel.Password, user.Password))
                 {
-                    // If user exists, increase failed login attempts
                     if (user != null)
                     {
                         user.FailedLoginAttempts++;
-                        // Lock out the account after 3 failed attempts (e.g., lock for 15 minutes)
                         if (user.FailedLoginAttempts >= 3)
                         {
                             user.LockoutEnd = DateTime.UtcNow.AddMinutes(15);
@@ -72,7 +69,6 @@ namespace AceJobAgency.Pages
                     ModelState.AddModelError("", "Username or Password incorrect");
                     return Page();
                 }
-
                 // Successful login: reset the counter
                 user.FailedLoginAttempts = 0;
                 user.LockoutEnd = null;

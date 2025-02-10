@@ -13,6 +13,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
+using System.Text.Encodings.Web;
 
 namespace AceJobAgency.Pages
 {
@@ -65,13 +66,26 @@ namespace AceJobAgency.Pages
                 // Handle Resume Upload
                 string resumePath = await SaveResumeAsync(RModel.Resume);
 
+                // Input sanitation and validation
+                string sanitizedEmail = HtmlEncoder.Default.Encode(RModel.Email.Trim());
+                var existingUser = _context.Users.FirstOrDefault(u => u.Email == sanitizedEmail);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("Email", "Email is already taken.");
+                    return Page();
+                }
+
+                // Sanitize and validate all fields
+                string sanitizedFirstName = HtmlEncoder.Default.Encode(RModel.FirstName.Trim());
+                string sanitizedLastName = HtmlEncoder.Default.Encode(RModel.LastName.Trim());
+
                 var user = new User
                 {
-                    FirstName = RModel.FirstName,
-                    LastName = RModel.LastName,
+                    FirstName = sanitizedFirstName,
+                    LastName = sanitizedLastName,
                     Gender = RModel.Gender,
                     NRIC = encryptedNRIC,
-                    Email = RModel.Email,
+                    Email = sanitizedEmail,
                     Password = HashPassword(RModel.Password), // Hash the password before storing
                     DateOfBirth = RModel.DateOfBirth,
                     Resume = resumePath,

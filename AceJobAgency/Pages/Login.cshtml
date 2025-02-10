@@ -14,11 +14,12 @@
             <form method="post" id="loginForm">
                 <div asp-validation-summary="All" class="text-danger"></div>
 
-                <label asp-for="LModel.Email">Email Address</label>
-                <input type="email" asp-for="LModel.Email" class="form-control" required />
+                <input id="email" asp-for="LModel.Email" type="email"
+                       pattern="@( @"[\w\.\-]+@([\w\-]+\.)+[a-zA-Z]{2,4}" )"
+                       title="Please enter a valid email" />
 
                 <label asp-for="LModel.Password">Password</label>
-                <input type="password" asp-for="LModel.Password" class="form-control" required />
+                <input type="password" asp-for="LModel.Password" class="form-control" required minlength="8" title="Password must be at least 8 characters long" />
 
                 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
 
@@ -41,3 +42,4 @@
         });
     });
 </script>
+

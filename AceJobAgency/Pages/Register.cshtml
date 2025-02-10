@@ -6,6 +6,7 @@
 <head>
     <script src="https://www.google.com/recaptcha/api.js?render=6Ld8p9AqAAAAAMfSabmgfDNowBl6Rc-XL1TniU6s"></script>
 </head>
+
 <div class="container mt-5">
     <div class="row justify-content-center align-items-center">
         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -14,10 +15,10 @@
                 <div asp-validation-summary="All" class="text-danger"></div>
 
                 <label asp-for="RModel.FirstName">First Name</label>
-                <input type="text" asp-for="RModel.FirstName" class="form-control" required />
+                <input type="text" asp-for="RModel.FirstName" class="form-control" required pattern="^[a-zA-Z]+$" title="Only letters are allowed" />
 
                 <label asp-for="RModel.LastName">Last Name</label>
-                <input type="text" asp-for="RModel.LastName" class="form-control" required />
+                <input type="text" asp-for="RModel.LastName" class="form-control" required pattern="^[a-zA-Z]+$" title="Only letters are allowed" />
 
                 <label asp-for="RModel.Gender">Gender</label>
                 <select asp-for="RModel.Gender" class="form-control">
@@ -26,14 +27,13 @@
                     <option value="Other">Other</option>
                 </select>
 
-                <label asp-for="RModel.NRIC">NRIC</label>
-                <input type="text" asp-for="RModel.NRIC" class="form-control" required />
-
                 <label asp-for="RModel.Email">Email Address</label>
-                <input type="email" asp-for="RModel.Email" class="form-control" required />
-
+                <input type="email" asp-for="RModel.Email" class="form-control" required
+                       pattern="@( @"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" )"
+                       title="Please enter a valid email" 
+                />
                 <label asp-for="RModel.Password">Password</label>
-                <input type="password" asp-for="RModel.Password" class="form-control" required />
+                <input type="password" asp-for="RModel.Password" class="form-control" required minlength="8" title="Password must be at least 8 characters long" />
 
                 <label asp-for="RModel.ConfirmPassword">Confirm Password</label>
                 <input type="password" asp-for="RModel.ConfirmPassword" class="form-control" required />
@@ -43,9 +43,6 @@
 
                 <label asp-for="RModel.Resume">Upload Resume</label>
                 <input type="file" asp-for="RModel.Resume" class="form-control" accept=".pdf,.docx" required />
-
-                <label asp-for="RModel.WhoAmI">Who Am I</label>
-                <textarea asp-for="RModel.WhoAmI" class="form-control"></textarea>
 
                 <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
 
