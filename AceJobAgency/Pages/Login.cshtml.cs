@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using AceJobAgency.Model;
 using AceJobAgency.ViewModels;
 using AceJobAgency.Services;
+using System.Text.Json;
 
 namespace AceJobAgency.Pages
 {
@@ -36,6 +37,14 @@ namespace AceJobAgency.Pages
         {
             if (ModelState.IsValid)
             {
+                string recaptchaResponse = Request.Form["g-recaptcha-response"];
+
+                if (!await ValidateRecaptchaAsync(recaptchaResponse))
+                {
+                    ModelState.AddModelError(string.Empty, "reCAPTCHA verification failed. Please try again.");
+                    return Page();
+                }
+
                 var user = _context.Users.FirstOrDefault(u => u.Email == LModel.Email);
 
                 // Check if the user exists and if the account is locked
@@ -126,6 +135,23 @@ namespace AceJobAgency.Pages
             byte[] tokenData = new byte[32];
             rng.GetBytes(tokenData);
             return Convert.ToBase64String(tokenData);
+        }
+
+        private async Task<bool> ValidateRecaptchaAsync(string recaptchaResponse)
+        {
+            using (var client = new HttpClient())
+            {
+                var secretKey = "6Ld8p9AqAAAAAGZTkbPJqZn_BvpI6qgTQ5q9JPbg"; // Replace with your reCAPTCHA secret key
+                var response = await client.PostAsync(
+                    $"https://www.google.com/recaptcha/api/siteverify?secret={secretKey}&response={recaptchaResponse}",
+                    null
+                );
+
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var json = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonResponse);
+
+                return json.TryGetValue("success", out var success) && success.ToString() == "True";
+            }
         }
     }
 }

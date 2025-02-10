@@ -1,36 +1,43 @@
 ﻿@page
 @model AceJobAgency.Pages.LoginModel
+@{
+}
+
+<head>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld8p9AqAAAAAMfSabmgfDNowBl6Rc-XL1TniU6s"></script>
+</head>
 
 <div class="container mt-5">
     <div class="row justify-content-center align-items-center">
-        <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="col-sm-12 col-md-12 col-lg-6">
             <h1 class="mb-3">Login</h1>
+            <form method="post" id="loginForm">
+                <div asp-validation-summary="All" class="text-danger"></div>
 
-            <!-- This div will display all validation errors, including lockout messages -->
-            <div asp-validation-summary="All" class="text-danger"></div>
+                <label asp-for="LModel.Email">Email Address</label>
+                <input type="email" asp-for="LModel.Email" class="form-control" required />
 
-            <form method="post">
-                <div class="mb-3">
-                    <label class="form-label" asp-for="LModel.Email">Email Address</label>
-                    <input type="text" asp-for="LModel.Email" class="form-control" />
-                    <span asp-validation-for="LModel.Email" class="text-danger"></span>
-                </div>
+                <label asp-for="LModel.Password">Password</label>
+                <input type="password" asp-for="LModel.Password" class="form-control" required />
 
-                <div class="mb-3">
-                    <label class="form-label" asp-for="LModel.Password">Password</label>
-                    <input type="password" asp-for="LModel.Password" class="form-control" />
-                    <span asp-validation-for="LModel.Password" class="text-danger"></span>
-                </div>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" />
 
-                <div class="mb-3 form-check">
-                    <input type="checkbox" asp-for="LModel.RememberMe" class="form-check-input" />
-                    <label class="form-check-label" asp-for="LModel.RememberMe">Remember Me?</label>
-                </div>
-
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </div>
+                <button type="submit" class="btn btn-primary mt-3" id="loginBtn">Login</button>
             </form>
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent normal form submission
+
+        grecaptcha.ready(function () {
+            grecaptcha.execute("6Ld8p9AqAAAAAMfSabmgfDNowBl6Rc-XL1TniU6s", { action: "login" }).then(function (token) {
+                console.log("Generated reCAPTCHA Token:", token);
+                document.getElementById("g-recaptcha-response").value = token;
+                document.getElementById("loginForm").submit();
+            });
+        });
+    });
+</script>
