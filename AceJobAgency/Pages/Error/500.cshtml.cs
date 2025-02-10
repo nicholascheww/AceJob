@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AceJobAgency.Pages.Account
+namespace AceJobAgency.Pages.Error
 {
-    public class AccessDeniedModel : PageModel
+    public class _500Model : PageModel
     {
         public void OnGet()
         {

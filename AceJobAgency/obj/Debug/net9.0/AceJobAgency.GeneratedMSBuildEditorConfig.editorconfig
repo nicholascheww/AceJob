@@ -28,12 +28,24 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/mrmim/Downloads/AceJob/AceJobAgency/Pages/Account/AccessDenied.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/mrmim/Downloads/AceJob/AceJobAgency/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrmim/Downloads/AceJob/AceJobAgency/Pages/Error/403.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3JcNDAzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrmim/Downloads/AceJob/AceJobAgency/Pages/Error/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3JcNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrmim/Downloads/AceJob/AceJobAgency/Pages/Error/500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3JcNTAwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrmim/Downloads/AceJob/AceJobAgency/Pages/Error/General.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3JcR2VuZXJhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mrmim/Downloads/AceJob/AceJobAgency/Pages/Index.cshtml]
