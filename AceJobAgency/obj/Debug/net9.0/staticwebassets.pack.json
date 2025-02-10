@@ -1,296 +1,320 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AceJobAgency.bundle.scp.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AceJobAgency.bundle.scp.css",
       "PackagePath": "staticwebassets\\AceJobAgency.2ky9inorl4.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\4f542093-75a7-4b2e-b416-e87f1313694e.docx",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\0e4dc40b-b41e-4734-8a46-6983412ca1ea.pdf",
+      "PackagePath": "staticwebassets\\resumes\\0e4dc40b-b41e-4734-8a46-6983412ca1ea.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\1d8a3069-aa8d-4bc5-a732-696bfd87e5d4.pdf",
+      "PackagePath": "staticwebassets\\resumes\\1d8a3069-aa8d-4bc5-a732-696bfd87e5d4.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\4f542093-75a7-4b2e-b416-e87f1313694e.docx",
       "PackagePath": "staticwebassets\\resumes\\4f542093-75a7-4b2e-b416-e87f1313694e.docx"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx",
       "PackagePath": "staticwebassets\\resumes\\51952ca5-108d-4bfa-a78f-8c3e1937e35f.docx"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx",
       "PackagePath": "staticwebassets\\resumes\\6d5a19f3-66cc-4dd3-b584-a0f11b0185fa.docx"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx",
       "PackagePath": "staticwebassets\\resumes\\8d8724cb-d14a-4f2d-9ab0-41e979fedbf3.docx"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf",
       "PackagePath": "staticwebassets\\resumes\\96eb5f27-a6fd-48f3-9dd3-b305620bcc6b.pdf"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx",
       "PackagePath": "staticwebassets\\resumes\\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx",
       "PackagePath": "staticwebassets\\resumes\\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf",
       "PackagePath": "staticwebassets\\resumes\\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf"
     },
     {
-      "Id": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\wwwroot\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx",
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\a8afe802-5c2d-4907-9857-ccb7fe0043e1.pdf",
+      "PackagePath": "staticwebassets\\resumes\\a8afe802-5c2d-4907-9857-ccb7fe0043e1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx",
       "PackagePath": "staticwebassets\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx"
+    },
+    {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\c1205191-287d-4656-84f7-0181f63f4d44.pdf",
+      "PackagePath": "staticwebassets\\resumes\\c1205191-287d-4656-84f7-0181f63f4d44.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\cacd4835-468a-436d-8f69-819a6e228a61.pdf",
+      "PackagePath": "staticwebassets\\resumes\\cacd4835-468a-436d-8f69-819a6e228a61.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\cc4b3578-b9fa-44a1-8c0c-66cee0f5f719.pdf",
+      "PackagePath": "staticwebassets\\resumes\\cc4b3578-b9fa-44a1-8c0c-66cee0f5f719.pdf"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AceJobAgency.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

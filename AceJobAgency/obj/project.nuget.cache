@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+dgZyME6pNs=",
+  "dgSpecHash": "sRkKBQVDwTI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrmim\\source\\repos\\AceJobAgency\\AceJobAgency\\AceJobAgency.csproj",
+  "projectFilePath": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\AceJobAgency.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrmim\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mrmim\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

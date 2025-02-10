@@ -51,6 +51,14 @@ namespace AceJobAgency.Pages
                     return Page();
                 }
 
+                // Check if email already exists
+                bool emailExists = await _context.Users.AnyAsync(u => u.Email == RModel.Email);
+                if (emailExists)
+                {
+                    ModelState.AddModelError("Email", "This email is already registered. Please use a different email.");
+                    return Page();
+                }
+
                 // Encrypt NRIC before storing
                 string encryptedNRIC = EncryptNRIC(RModel.NRIC);
 
@@ -78,8 +86,6 @@ namespace AceJobAgency.Pages
 
             return Page();
         }
-
-
         private string EncryptNRIC(string nric)
         {
             // Use a fixed key and IV so that decryption can use the same values.
