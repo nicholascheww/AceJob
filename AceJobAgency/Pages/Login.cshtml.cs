@@ -74,7 +74,7 @@ namespace AceJobAgency.Pages
                             user.FailedLoginAttempts++;
                             if (user.FailedLoginAttempts >= 3)
                             {
-                                user.LockoutEnd = DateTime.UtcNow.AddMinutes(1); // Lockout for 15 minutes
+                                user.LockoutEnd = DateTime.UtcNow.AddMinutes(15); // Lockout for 15 minutes
                             }
                             _context.Users.Update(user);
                             await _context.SaveChangesAsync();

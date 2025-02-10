@@ -56,9 +56,11 @@
                     </div>
 
                     <div class="mb-4">
-                        <label for="password" class="form-label">Password</label>
+                        <label for="Password" class="form-label">Password</label>
                         <input type="password" asp-for="LModel.Password" class="form-control"
-                               required minlength="8" title="Password must be at least 8 characters long"
+                               required minlength="12"
+                               pattern="@(Html.Raw("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@@$!%*?&])[A-Za-z\\d@$!%*?&]{12,}$"))"
+                               title="Password must be at least 12 characters long, with at least one uppercase letter, one lowercase letter, one number, and one special character."
                                placeholder="Enter your password" />
                     </div>
 

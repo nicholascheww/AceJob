@@ -21,6 +21,7 @@ namespace AceJobAgency.Model
         public DbSet<User> Users { get => users; set => users = value; }
         public DbSet<UserSessions> UserSessions { get; set; }
         public DbSet<AuditLog> AuditLogs { get; set; }
+        public DbSet<PasswordHistory> PasswordHistory { get; set; }
 
     }
 }
