@@ -31,7 +31,7 @@ namespace AceJobAgency.Pages
         public Login LModel { get; set; }
 
         public void OnGet() { }
-
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> OnPostAsync()
         {
             if (ModelState.IsValid)

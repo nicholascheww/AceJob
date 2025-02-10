@@ -32,7 +32,7 @@ namespace AceJobAgency.Pages
         public Register RModel { get; set; }
 
         public void OnGet() { }
-
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> OnPostAsync()
         {
             if (ModelState.IsValid)
@@ -67,7 +67,7 @@ namespace AceJobAgency.Pages
                 string resumePath = await SaveResumeAsync(RModel.Resume);
 
                 // Input sanitation and validation
-                string sanitizedEmail = HtmlEncoder.Default.Encode(RModel.Email.Trim());
+                string sanitizedEmail = HtmlEncoder.Default.Encode(RModel.Email.Trim().ToLower());
                 var existingUser = _context.Users.FirstOrDefault(u => u.Email == sanitizedEmail);
                 if (existingUser != null)
                 {
@@ -78,6 +78,7 @@ namespace AceJobAgency.Pages
                 // Sanitize and validate all fields
                 string sanitizedFirstName = HtmlEncoder.Default.Encode(RModel.FirstName.Trim());
                 string sanitizedLastName = HtmlEncoder.Default.Encode(RModel.LastName.Trim());
+                string sanitizedWhoAmI = HtmlEncoder.Default.Encode(RModel.WhoAmI?.Trim()); ;
 
                 var user = new User
                 {
@@ -89,7 +90,7 @@ namespace AceJobAgency.Pages
                     Password = HashPassword(RModel.Password), // Hash the password before storing
                     DateOfBirth = RModel.DateOfBirth,
                     Resume = resumePath,
-                    WhoAmI = RModel.WhoAmI
+                    WhoAmI = sanitizedWhoAmI
                 };
 
                 _context.Users.Add(user);
