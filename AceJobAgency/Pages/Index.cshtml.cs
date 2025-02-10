@@ -45,14 +45,13 @@ namespace AceJobAgency.Pages
             }
         }
 
-        public IActionResult OnPostChangePassword(string currentPassword, string newPassword)
+        public IActionResult OnPostChangePassword(string currentPassword, string newPassword, string confirmPassword)
         {
             string email = HttpContext.Session.GetString("UserEmail") ?? User.Identity?.Name;
 
             if (string.IsNullOrEmpty(email))
             {
-                ModelState.AddModelError(string.Empty, "User is not authenticated.");
-                return Page();
+                return new JsonResult(new { success = false, message = "User is not authenticated." });
             }
 
             // Retrieve the user from the database
@@ -60,15 +59,19 @@ namespace AceJobAgency.Pages
 
             if (CurrentUser == null)
             {
-                ModelState.AddModelError(string.Empty, "User not found.");
-                return Page();
+                return new JsonResult(new { success = false, message = "User not found." });
             }
 
             // Verify the current password
             if (!VerifyPassword(currentPassword, CurrentUser.Password))
             {
-                ModelState.AddModelError(string.Empty, "Current password is incorrect.");
-                return Page();
+                return new JsonResult(new { success = false, message = "Current password is incorrect." });
+            }
+
+            // Check if the new password matches the confirm password
+            if (newPassword != confirmPassword)
+            {
+                return new JsonResult(new { success = false, message = "The new password and confirmation password do not match." });
             }
 
             // Check if the new password is the same as any of the previous passwords
@@ -81,8 +84,7 @@ namespace AceJobAgency.Pages
 
             if (passwordHistory.Contains(newPasswordHash))
             {
-                ModelState.AddModelError(string.Empty, "You cannot reuse your previous passwords.");
-                return Page(); // Return the page with error messages
+                return new JsonResult(new { success = false, message = "You cannot reuse your previous passwords." });
             }
 
             // Hash the new password and update
@@ -92,13 +94,8 @@ namespace AceJobAgency.Pages
             // Save changes to the database
             _context.SaveChanges();
 
-            TempData["SuccessMessage"] = "Password successfully changed!";
-            return RedirectToPage(); // Optionally redirect to the same page
+            return new JsonResult(new { success = true, message = "Password successfully changed!" });
         }
-
-
-
-
 
         private string DecryptNRIC(string encryptedNRIC)
         {
@@ -162,7 +159,7 @@ namespace AceJobAgency.Pages
             return false;
         }
 
-        public void AddPasswordToHistory(User currentUser, string newPasswordHash)
+        private void AddPasswordToHistory(User currentUser, string newPasswordHash)
         {
             // Ensure that the user exists and has an Id
             if (currentUser == null || string.IsNullOrEmpty(currentUser.Email) || currentUser.Id == 0)
@@ -179,6 +176,7 @@ namespace AceJobAgency.Pages
             if (existingPassword.Contains(newPasswordHash))
             {
                 ModelState.AddModelError("newPassword", "You cannot use the same password as your previous one.");
+                return; // Exit the method without adding the password to history
             }
 
             // Create a new PasswordHistory record
