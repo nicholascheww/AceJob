@@ -768,6 +768,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 07:42:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/01634889-34ed-44d3-8b73-99216e47d906.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\01634889-34ed-44d3-8b73-99216e47d906.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:26:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/01634889-34ed-44d3-8b73-99216e47d906.w4qnyf2ub8.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\01634889-34ed-44d3-8b73-99216e47d906.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4qnyf2ub8"},{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="},{"Name":"label","Value":"_content/AceJobAgency/resumes/01634889-34ed-44d3-8b73-99216e47d906.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:26:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/0e4dc40b-b41e-4734-8a46-6983412ca1ea.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\0e4dc40b-b41e-4734-8a46-6983412ca1ea.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -900,6 +912,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4qnyf2ub8"},{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="},{"Name":"label","Value":"_content/AceJobAgency/resumes/a8afe802-5c2d-4907-9857-ccb7fe0043e1.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 07:59:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/ad07f1a5-77dc-4347-85f3-551a625df7c5.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\ad07f1a5-77dc-4347-85f3-551a625df7c5.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:10:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/ad07f1a5-77dc-4347-85f3-551a625df7c5.w4qnyf2ub8.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\ad07f1a5-77dc-4347-85f3-551a625df7c5.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4qnyf2ub8"},{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="},{"Name":"label","Value":"_content/AceJobAgency/resumes/ad07f1a5-77dc-4347-85f3-551a625df7c5.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:10:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/bcf171dd-1996-4fb5-9f43-8e806453521b.1618tkzkxk.docx">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\bcf171dd-1996-4fb5-9f43-8e806453521b.docx'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -924,6 +948,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4qnyf2ub8"},{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="},{"Name":"label","Value":"_content/AceJobAgency/resumes/c1205191-287d-4656-84f7-0181f63f4d44.pdf"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 08:05:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:01:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.w4qnyf2ub8.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4qnyf2ub8"},{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="},{"Name":"label","Value":"_content/AceJobAgency/resumes/c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:01:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/cacd4835-468a-436d-8f69-819a6e228a61.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\cacd4835-468a-436d-8f69-819a6e228a61.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -947,6 +983,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XBgVlDic\u002Bvk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"269109"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022XBgVlDic\u002Bvk4ceY/yVwhk6qyLwp6ibNOc1U1jkjBqJE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 07:42:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/ee0a83be-55df-4161-83c8-144841df6377.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\ee0a83be-55df-4161-83c8-144841df6377.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:20:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AceJobAgency/resumes/ee0a83be-55df-4161-83c8-144841df6377.w4qnyf2ub8.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\ee0a83be-55df-4161-83c8-144841df6377.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4qnyf2ub8"},{"Name":"integrity","Value":"sha256-EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg="},{"Name":"label","Value":"_content/AceJobAgency/resumes/ee0a83be-55df-4161-83c8-144841df6377.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"210553"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022EILshOcKTLwDIixMiWEUqtw9KyMdyJZ91teElKFxmVg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 15:20:46 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

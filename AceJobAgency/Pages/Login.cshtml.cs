@@ -48,67 +48,75 @@ namespace AceJobAgency.Pages
                 string sanitizedEmail = HtmlEncoder.Default.Encode(LModel.Email.Trim());
                 var user = _context.Users.FirstOrDefault(u => u.Email == sanitizedEmail);
 
-                if (user != null && user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTime.UtcNow)
+                if (user != null)
                 {
-                    ModelState.AddModelError("", "Your account is locked. Please try again later.");
-                    return Page();
-                }
-
-                if (user == null || !VerifyPassword(LModel.Password, user.Password))
-                {
-                    if (user != null)
+                    // Check if the account is locked and if the lockout period has expired
+                    if (user.LockoutEnd.HasValue && user.LockoutEnd.Value > DateTime.UtcNow)
                     {
-                        user.FailedLoginAttempts++;
-                        if (user.FailedLoginAttempts >= 3)
-                        {
-                            user.LockoutEnd = DateTime.UtcNow.AddMinutes(15);
-                        }
+                        ModelState.AddModelError("", "Your account is locked. Please try again later.");
+                        return Page();
+                    }
+
+                    // Reset the lockout if the lockout time has passed
+                    if (user.LockoutEnd.HasValue && user.LockoutEnd.Value <= DateTime.UtcNow)
+                    {
+                        user.FailedLoginAttempts = 0;
+                        user.LockoutEnd = null;
                         _context.Users.Update(user);
                         await _context.SaveChangesAsync();
                     }
-                    ModelState.AddModelError("", "Username or Password incorrect");
-                    return Page();
+
+                    // Check for invalid credentials
+                    if (user == null || !VerifyPassword(LModel.Password, user.Password))
+                    {
+                        if (user != null)
+                        {
+                            user.FailedLoginAttempts++;
+                            if (user.FailedLoginAttempts >= 3)
+                            {
+                                user.LockoutEnd = DateTime.UtcNow.AddMinutes(1); // Lockout for 15 minutes
+                            }
+                            _context.Users.Update(user);
+                            await _context.SaveChangesAsync();
+                        }
+                        ModelState.AddModelError("", "Username or Password incorrect");
+                        return Page();
+                    }
+
+                    // Successful login: reset the counter
+                    user.FailedLoginAttempts = 0;
+                    user.LockoutEnd = null;
+                    _context.Users.Update(user);
+                    await _context.SaveChangesAsync();
+
+                    // Generate a session token and store session info as you did
+                    string sessionToken = Guid.NewGuid().ToString();
+                    var newSession = new UserSessions
+                    {
+                        UserEmail = user.Email,
+                        SessionToken = sessionToken,
+                        CreatedAt = DateTime.UtcNow
+                    };
+                    _context.UserSessions.Add(newSession);
+                    await _context.SaveChangesAsync();
+
+                    HttpContext.Session.Clear();
+                    HttpContext.Session.SetString("UserEmail", LModel.Email);
+                    HttpContext.Session.SetString("SessionToken", sessionToken);
+                    HttpContext.Session.SetString("SessionStartTime", DateTime.UtcNow.ToString());
+
+                    // Log successful login
+                    await _auditLogService.LogAuditEventAsync(user.Email, "Successful Login");
+
+                    // Redirect to the homepage after successful login
+                    return RedirectToPage("/Index");
                 }
-                // Successful login: reset the counter
-                user.FailedLoginAttempts = 0;
-                user.LockoutEnd = null;
-                _context.Users.Update(user);
-                await _context.SaveChangesAsync();
 
-                // Generate a session token and store session info as you did
-                string sessionToken = Guid.NewGuid().ToString();
-                var newSession = new UserSessions
-                {
-                    UserEmail = user.Email,
-                    SessionToken = sessionToken,
-                    CreatedAt = DateTime.UtcNow
-                };
-                _context.UserSessions.Add(newSession);
-                await _context.SaveChangesAsync();
-
-                HttpContext.Session.Clear();
-                HttpContext.Session.SetString("UserEmail", LModel.Email);
-                HttpContext.Session.SetString("SessionToken", sessionToken);
-                HttpContext.Session.SetString("SessionStartTime", DateTime.UtcNow.ToString());
-
-                // Create claims for authentication
-                var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Name, LModel.Email),
-            new Claim(ClaimTypes.Email, LModel.Email),
-            new Claim("Department", "HR")
-        };
-
-                var identity = new ClaimsIdentity(claims, "MyCookieAuth");
-                ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(identity);
-                await HttpContext.SignInAsync("MyCookieAuth", claimsPrincipal);
-
-                // Log successful login
-                await _auditLogService.LogAuditEventAsync(user.Email, "Successful Login");
-
-                // Redirect to the homepage after successful login
-                return RedirectToPage("/Index");
+                // If user is null, handle that case (not found)
+                ModelState.AddModelError("", "Username or Password incorrect");
+                return Page();
             }
+
             return Page();
         }
 

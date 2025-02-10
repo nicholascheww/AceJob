@@ -116,9 +116,10 @@
                         <input type="file" asp-for="RModel.Resume" class="form-control" accept=".pdf,.docx" required />
                     </div>
 
+
                     <div class="mb-3">
                         <label for="WhoAmI" class="form-label">Who Am I</label>
-                        <textarea asp-for="RModel.WhoAmI" class="form-control" rows="4" placeholder="Tell us a little about yourself" maxlength="500"></textarea>
+                        <input type="text" asp-for="RModel.WhoAmI" class="form-control" placeholder="Tell us a little about yourself" />
                     </div>
 
                     <!-- Hidden reCAPTCHA response input -->

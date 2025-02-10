@@ -257,6 +257,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\01634889-34ed-44d3-8b73-99216e47d906.pdf",
+      "PackagePath": "staticwebassets\\resumes\\01634889-34ed-44d3-8b73-99216e47d906.pdf"
+    },
+    {
       "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\0e4dc40b-b41e-4734-8a46-6983412ca1ea.pdf",
       "PackagePath": "staticwebassets\\resumes\\0e4dc40b-b41e-4734-8a46-6983412ca1ea.pdf"
     },
@@ -301,6 +305,10 @@
       "PackagePath": "staticwebassets\\resumes\\a8afe802-5c2d-4907-9857-ccb7fe0043e1.pdf"
     },
     {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\ad07f1a5-77dc-4347-85f3-551a625df7c5.pdf",
+      "PackagePath": "staticwebassets\\resumes\\ad07f1a5-77dc-4347-85f3-551a625df7c5.pdf"
+    },
+    {
       "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx",
       "PackagePath": "staticwebassets\\resumes\\bcf171dd-1996-4fb5-9f43-8e806453521b.docx"
     },
@@ -309,12 +317,20 @@
       "PackagePath": "staticwebassets\\resumes\\c1205191-287d-4656-84f7-0181f63f4d44.pdf"
     },
     {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.pdf",
+      "PackagePath": "staticwebassets\\resumes\\c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.pdf"
+    },
+    {
       "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\cacd4835-468a-436d-8f69-819a6e228a61.pdf",
       "PackagePath": "staticwebassets\\resumes\\cacd4835-468a-436d-8f69-819a6e228a61.pdf"
     },
     {
       "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\cc4b3578-b9fa-44a1-8c0c-66cee0f5f719.pdf",
       "PackagePath": "staticwebassets\\resumes\\cc4b3578-b9fa-44a1-8c0c-66cee0f5f719.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\ee0a83be-55df-4161-83c8-144841df6377.pdf",
+      "PackagePath": "staticwebassets\\resumes\\ee0a83be-55df-4161-83c8-144841df6377.pdf"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AceJobAgency.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

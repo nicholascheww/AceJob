@@ -30,14 +30,10 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AuthDbContext>();
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AuthDbContext>();
 
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("MustBelongToHRDepartment",
-        policy => policy.RequireClaim("Department", "HR"));
-});
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IAuditLogService, AuditLogService>();
+
 
 // Build the application
 var app = builder.Build();

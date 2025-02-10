@@ -123,6 +123,7 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\resumes\01634889-34ed-44d3-8b73-99216e47d906.pdf
 wwwroot\resumes\0e4dc40b-b41e-4734-8a46-6983412ca1ea.pdf
 wwwroot\resumes\1d8a3069-aa8d-4bc5-a732-696bfd87e5d4.pdf
 wwwroot\resumes\4f542093-75a7-4b2e-b416-e87f1313694e.docx
@@ -134,7 +135,10 @@ wwwroot\resumes\9b8f8d3d-5cbd-4652-9cb4-a8ef822bf027.docx
 wwwroot\resumes\9e9597f3-dc7d-4f9a-901b-4eb9ad66632c.docx
 wwwroot\resumes\a1b27cd1-8f57-4477-8113-875372a42a4e.pdf
 wwwroot\resumes\a8afe802-5c2d-4907-9857-ccb7fe0043e1.pdf
+wwwroot\resumes\ad07f1a5-77dc-4347-85f3-551a625df7c5.pdf
 wwwroot\resumes\bcf171dd-1996-4fb5-9f43-8e806453521b.docx
 wwwroot\resumes\c1205191-287d-4656-84f7-0181f63f4d44.pdf
+wwwroot\resumes\c6decc7e-67e2-490a-a9be-2c34c2a0b1d3.pdf
 wwwroot\resumes\cacd4835-468a-436d-8f69-819a6e228a61.pdf
 wwwroot\resumes\cc4b3578-b9fa-44a1-8c0c-66cee0f5f719.pdf
+wwwroot\resumes\ee0a83be-55df-4161-83c8-144841df6377.pdf
