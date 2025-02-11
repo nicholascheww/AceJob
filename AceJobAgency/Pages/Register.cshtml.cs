@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Text.Encodings.Web;
+using System.Runtime.CompilerServices;
 
 namespace AceJobAgency.Pages
 {
@@ -21,11 +22,13 @@ namespace AceJobAgency.Pages
     {
         private readonly AuthDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IConfiguration _configuration;
 
-        public RegisterModel(AuthDbContext context, IWebHostEnvironment webHostEnvironment)
+        public RegisterModel(AuthDbContext context, IWebHostEnvironment webHostEnvironment, IConfiguration configuration)
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
+            _configuration = configuration;
         }
 
         [BindProperty]
@@ -163,7 +166,7 @@ namespace AceJobAgency.Pages
         {
             using (var client = new HttpClient())
             {
-                var secretKey = "6Ld8p9AqAAAAAGZTkbPJqZn_BvpI6qgTQ5q9JPbg"; // Replace with your reCAPTCHA secret key
+                var secretKey = _configuration["CAPTCHA_BACKEND_KEY"]; // Replace with your reCAPTCHA secret key
                 var response = await client.PostAsync(
                     $"https://www.google.com/recaptcha/api/siteverify?secret={secretKey}&response={recaptchaResponse}",
                     null

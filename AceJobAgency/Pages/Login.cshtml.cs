@@ -85,17 +85,10 @@ namespace AceJobAgency.Pages
                     // Enforce password age policy
                     DateTime currentDate = DateTime.UtcNow;
                     int maxPasswordAgeInDays = 90; // Maximum password age, for example, 90 days
-                    int minPasswordAgeInDays = 1; // Minimum password age, for example, 30 days
 
                     if (currentDate - user.PasswordLastChanged > TimeSpan.FromDays(maxPasswordAgeInDays))
                     {
                         ModelState.AddModelError("", "Your password has expired. Please reset it.");
-                        return Page();
-                    }
-
-                    if (currentDate - user.PasswordLastChanged < TimeSpan.FromDays(minPasswordAgeInDays))
-                    {
-                        ModelState.AddModelError("", "Your password is too new to be used. Please wait a few days.");
                         return Page();
                     }
 

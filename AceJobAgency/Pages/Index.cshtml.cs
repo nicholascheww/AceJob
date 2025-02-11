@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using AceJobAgency.ViewModels;
 using System.Collections.Generic;
+using System.Text.Encodings.Web;
+
 
 namespace AceJobAgency.Pages
 {
@@ -194,6 +196,13 @@ namespace AceJobAgency.Pages
             // Add the new password history record to the context
             _context.PasswordHistory.Add(passwordHistory);
         }
+
+        public string DecodeText(string encodedText)
+        {
+            byte[] textBytes = Convert.FromBase64String(encodedText);
+            return Encoding.UTF8.GetString(textBytes);
+        }
+
 
 
     }

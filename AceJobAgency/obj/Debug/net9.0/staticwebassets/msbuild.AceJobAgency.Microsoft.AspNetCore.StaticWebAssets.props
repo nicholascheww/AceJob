@@ -1152,6 +1152,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\011a1fc7-68ea-478e-836a-39e13b753f99.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AceJobAgency</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AceJobAgency</BasePath>
+      <RelativePath>resumes/011a1fc7-68ea-478e-836a-39e13b753f99.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m9e68cuy1v</Fingerprint>
+      <Integrity>uqWGxEzZ/wof1pRI5MEu+uzSwfgMfkA3AnMlNY8sQ+8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\011a1fc7-68ea-478e-836a-39e13b753f99.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resumes\01634889-34ed-44d3-8b73-99216e47d906.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>AceJobAgency</SourceId>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ppvDjj9Z0cuhLK6yGeuGKShJyl3I5VUjU4BiT/kmcDE=",
+  "Hash": "jTSmN74a2OLT5J/C6OXxUbN+YNe0kTQbXY7kqkfGlzY=",
   "Source": "AceJobAgency",
   "BasePath": "_content/AceJobAgency",
   "Mode": "Default",
@@ -2724,6 +2724,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\011a1fc7-68ea-478e-836a-39e13b753f99.docx",
+      "SourceId": "AceJobAgency",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\",
+      "BasePath": "_content/AceJobAgency",
+      "RelativePath": "resumes/011a1fc7-68ea-478e-836a-39e13b753f99#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m9e68cuy1v",
+      "Integrity": "uqWGxEzZ/wof1pRI5MEu+uzSwfgMfkA3AnMlNY8sQ+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resumes\\011a1fc7-68ea-478e-836a-39e13b753f99.docx"
     },
     {
       "Identity": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\01634889-34ed-44d3-8b73-99216e47d906.pdf",
@@ -22277,6 +22298,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/011a1fc7-68ea-478e-836a-39e13b753f99.docx",
+      "AssetFile": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\011a1fc7-68ea-478e-836a-39e13b753f99.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqWGxEzZ/wof1pRI5MEu+uzSwfgMfkA3AnMlNY8sQ+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 03:15:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqWGxEzZ/wof1pRI5MEu+uzSwfgMfkA3AnMlNY8sQ+8="
+        }
+      ]
+    },
+    {
+      "Route": "resumes/011a1fc7-68ea-478e-836a-39e13b753f99.m9e68cuy1v.docx",
+      "AssetFile": "C:\\Users\\mrmim\\Downloads\\AceJob\\AceJobAgency\\wwwroot\\resumes\\011a1fc7-68ea-478e-836a-39e13b753f99.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqWGxEzZ/wof1pRI5MEu+uzSwfgMfkA3AnMlNY8sQ+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 03:15:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m9e68cuy1v"
+        },
+        {
+          "Name": "label",
+          "Value": "resumes/011a1fc7-68ea-478e-836a-39e13b753f99.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqWGxEzZ/wof1pRI5MEu+uzSwfgMfkA3AnMlNY8sQ+8="
         }
       ]
     },
