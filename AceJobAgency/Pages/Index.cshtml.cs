@@ -87,6 +87,7 @@ namespace AceJobAgency.Pages
 
             // Hash the new password and update
             CurrentUser.Password = newPasswordHash;
+            CurrentUser.PasswordLastChanged = DateTime.Now;
             AddPasswordToHistory(CurrentUser, newPasswordHash);
 
             // Save changes to the database

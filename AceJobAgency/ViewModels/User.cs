@@ -42,6 +42,9 @@ namespace AceJobAgency.ViewModels
 
         public int FailedLoginAttempts { get; set; } = 0;
         public DateTime? LockoutEnd { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        public DateTime PasswordLastChanged { get; set; }
         public virtual ICollection<PasswordHistory> PasswordHistory { get; set; }
     }
 }

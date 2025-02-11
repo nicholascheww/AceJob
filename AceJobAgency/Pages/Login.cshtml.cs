@@ -44,7 +44,6 @@ namespace AceJobAgency.Pages
                     return Page();
                 }
 
-                // Input sanitation and validation
                 string sanitizedEmail = HtmlEncoder.Default.Encode(LModel.Email.Trim());
                 var user = _context.Users.FirstOrDefault(u => u.Email == sanitizedEmail);
 
@@ -83,13 +82,30 @@ namespace AceJobAgency.Pages
                         return Page();
                     }
 
+                    // Enforce password age policy
+                    DateTime currentDate = DateTime.UtcNow;
+                    int maxPasswordAgeInDays = 90; // Maximum password age, for example, 90 days
+                    int minPasswordAgeInDays = 1; // Minimum password age, for example, 30 days
+
+                    if (currentDate - user.PasswordLastChanged > TimeSpan.FromDays(maxPasswordAgeInDays))
+                    {
+                        ModelState.AddModelError("", "Your password has expired. Please reset it.");
+                        return Page();
+                    }
+
+                    if (currentDate - user.PasswordLastChanged < TimeSpan.FromDays(minPasswordAgeInDays))
+                    {
+                        ModelState.AddModelError("", "Your password is too new to be used. Please wait a few days.");
+                        return Page();
+                    }
+
                     // Successful login: reset the counter
                     user.FailedLoginAttempts = 0;
                     user.LockoutEnd = null;
                     _context.Users.Update(user);
                     await _context.SaveChangesAsync();
 
-                    // Generate a session token and store session info as you did
+                    // Generate a session token and store session info
                     string sessionToken = Guid.NewGuid().ToString();
                     var newSession = new UserSessions
                     {

@@ -90,7 +90,8 @@ namespace AceJobAgency.Pages
                     Password = HashPassword(RModel.Password), // Hash the password before storing
                     DateOfBirth = RModel.DateOfBirth,
                     Resume = resumePath,
-                    WhoAmI = sanitizedWhoAmI
+                    WhoAmI = sanitizedWhoAmI,
+                    PasswordLastChanged = DateTime.Now,
                 };
 
                 _context.Users.Add(user);
