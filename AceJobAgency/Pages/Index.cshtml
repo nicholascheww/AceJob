@@ -46,6 +46,7 @@
         <h1>User information is not available.</h1>
     }
 </div>
+
 <!-- Change Password Modal -->
 <div class="modal fade" id="changePasswordModal" tabindex="-1" role="dialog" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -56,7 +57,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form id="changePasswordForm">
+            <form method="post" asp-page-handler="ChangePassword" id="changePasswordForm">
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="currentPassword">Current Password</label>
@@ -70,6 +71,17 @@
                         <label for="confirmPassword">Confirm New Password</label>
                         <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required />
                     </div>
+
+                    <!-- Displaying Error Messages -->
+                    @if (ModelState != null && ModelState.ContainsKey("newPassword") && ModelState["newPassword"].Errors.Count > 0)
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @foreach (var error in ModelState["newPassword"].Errors)
+                            {
+                                <p>@error.ErrorMessage</p>
+                            }
+                        </div>
+                    }
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -80,40 +92,7 @@
     </div>
 </div>
 
-<!-- Include jQuery and Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Include Bootstrap JS and CSS for Modal -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-    $(document).ready(function () {
-        $('#changePasswordForm').on('submit', function (e) {
-            e.preventDefault(); // Prevent the default form submission
-
-            // Get form data
-            var formData = {
-                currentPassword: $('#currentPassword').val(),
-                newPassword: $('#newPassword').val(),
-                confirmPassword: $('#confirmPassword').val()
-            };
-
-            // Send AJAX request
-            $.ajax({
-                url: '?handler=ChangePassword',
-                type: 'POST',
-                data: formData,
-                success: function (response) {
-                    if (response.success) {
-                        alert(response.message); // Show success message
-                        $('#changePasswordModal').modal('hide'); // Close the modal
-                        location.reload(); // Reload the page to reflect changes
-                    } else {
-                        alert(response.message); // Show error message
-                    }
-                },
-                error: function () {
-                    alert('An error occurred while processing your request.');
-                }
-            });
-        });
-    });
-</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet" />

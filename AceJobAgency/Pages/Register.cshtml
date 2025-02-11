@@ -87,20 +87,20 @@
                     <!-- Password -->
                     <div class="mb-3">
                         <label for="Password" class="form-label">Password</label>
-                        <input type="password" asp-for="RModel.Password" class="form-control" 
-                            required minlength="12"
+                        <input type="password" asp-for="RModel.Password" class="form-control"
+                               required minlength="12"
                                pattern="@(Html.Raw("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@@$!%*?&])[A-Za-z\\d@$!%*?&]{12,}$"))"
                                title="Password must be at least 12 characters long, with at least one uppercase letter, one lowercase letter, one number, and one special character."
-                            placeholder="Enter your password" />
+                               placeholder="Enter your password" />
                     </div>
 
 
                     <!-- Confirm Password -->
                     <div class="mb-3">
                         <label for="ConfirmPassword" class="form-label">Confirm Password</label>
-                        <input type="password" asp-for="RModel.ConfirmPassword" class="form-control" 
-                            required 
-                            placeholder="Confirm your password" />
+                        <input type="password" asp-for="RModel.ConfirmPassword" class="form-control"
+                               required
+                               placeholder="Confirm your password" />
                     </div>
 
 
@@ -150,5 +150,4 @@
         });
     });
 </script>
-
 
